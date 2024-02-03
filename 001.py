@@ -22,7 +22,7 @@ Digite 4 para DIVISÃO''')
     else:
         d = (n1 / n2)
         print(f'A resposta é {d}')
-    fim = input('Deseja finalizar o programa (s/n)? ')
+    fim = input('Deseja finalizar o programa (s/n)? ').lower()
     if fim == 's':
         print('Até logo...')
         break
