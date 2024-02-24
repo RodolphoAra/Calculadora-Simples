@@ -5,7 +5,7 @@ Digite 2 para SUBTRAÇÃO
 Digite 3 para MULTIPLICAÇÃO
 Digite 4 para DIVISÃO''')
     p = int(input('Qual sua opção? '))
-    if 1 > p > 4:
+    if p < 1 or p > 4:
         print('Somente valores válidos.')
     else:
         n1 = float(input('Digite um nº: '))
